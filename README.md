@@ -1,7 +1,7 @@
 | Date              |          |
 |:------------------|:---------|
-| TODO | Assigned |
-| TODO    | Due      |
+| TODO | 18 September 2023 |
+| TODO    | 25 September 2023      |
 | Status            | [![GatorGrader](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) |
 
 # BRAND NEW BEAUTIFICATION PROPOSAL PROMPTS `term-world` TENANTS TO TIDY UP
@@ -10,7 +10,7 @@
 
 Last week `The Mayor` unveiled a new beautification program in an effort to make `term-world` *the* spot to be. This is the latest in a long line of proposals, projects, programs, and plans that `The Mayor` has been fervently working on to drive both tourism and residency within `term-world`.
 
-This particular program targets the tight-knit communities that lie on the outskirts of our fair `term-world`. The appeal of neighborhoods like `NEIGHBORHOOD` and `NEIGHBORHOOD` has gone under the microscope, and according to `The Mayor`, it has been found sorely wanting.
+This particular program targets the tight-knit communities that lie on the outskirts of our fair `term-world`. The appeal of neighborhoods like `Drifa` and `Samudra` has gone under the microscope, and according to `The Mayor`, it has been found sorely wanting.
 
 Partnering with `The Landlord` that exercises ownership over these despondent, dismal, and downright depressing domestic hovels, `The Mayor` has decreed that all building exteriors in the targeted communities must meet certain specific "Beautification Standard" metrics, within a week's time. Once the one week grace period is up, `The Mayor` is planning on leveraging his authority as `The Mayor` to evict non-compliant residents.
 
@@ -99,7 +99,7 @@ get Tomato.py
 
 ##### use
 
-If the object is `Consumable`, you can use the `use` command to "use" the object. If It does not have any function then `use` just removes the file. Only uses `1` object at a time.
+If the object is `Consumable`, you can use the `use` command to "use" the object. If it does not have any function then `use` just removes the file. Only uses `1` object at a time.
 
 ```
 use Tomato
@@ -107,7 +107,7 @@ use Tomato
 
 ##### remove
 
-`remove` gets rid of an object from your `inventory`. You first use the name of the object, then you give the amount of objects you want to delete (If no amount is given then 1 is removed). If you give an amount higher then you have, all objects are removed.
+`remove` gets rid of an object from your `inventory`. You first use the name of the object, then you give the amount of objects you want to delete (if no amount is given then 1 is removed). If you give an amount higher then you have, all objects are removed.
 
 ```
 remove Tomato 2
@@ -164,6 +164,59 @@ The activities for this week primarily take place in your `yard`. This is the la
     |--------------|--------------|
 ```
 
+### 1. GitHub
+
+- On your GitHub assignment page (i.e. _this_ page) locate the green `Code` button
+- Select the `SSH` link from options presented
+- `Copy` or click the button at the far right of the textbox on that screen
+
+![TW - Clone link diagram](https://user-images.githubusercontent.com/1552764/213940345-2e62ec2e-e017-40ff-b325-745f9e731041.png)
+
+### 2. `term-world`
+
+As before, you can run the `git clone` command in the terminal followed by the copied link from above. Another way to `clone` a GitHub repository is to use the `term-world`/VSCode graphical interface as follows.
+
+![TW - Clone Repo](https://user-images.githubusercontent.com/1552764/213931807-993be051-59e4-4102-b183-8c65bacaadee.png)
+
+- In [`term-world`](https://world.theterm.world), find the `Source Control` menu
+- Locate and click the `...` at the top right of the window
+- Choose `Clone` from the list of options
+- Paste the link copied above
+- Choose your home folder as the location into which to clone the repository
+
+### `push`ing Content
+
+Observe the list of files you've changed and add them to a staging area using the + button to the right of each file
+Once these have been "staged," attach a message to what we call a commit -- a "packaging" of the files to send to GitHub.
+
+To follow this process:
+
+![TW - Commit and Sync](https://user-images.githubusercontent.com/1552764/213940290-23b12a8a-6283-492c-ab1c-66a801ba815e.png)
+
+## Code Walkthrough
+
+Code walkthrough is a type of peer review where the writer of the code leads the process. The goal of code walkthrough is to create a shared understanding of the created code, to detect any potential flaws in the code, and to correct them. 
+
+During the lab session, each author will engage in the code walkthrough with TLs and the instructor by:
+- opening the Python files in which they wrote code and explaining the code;
+- executing Python programs to showcase the behavior of the written code;
+- writing or modifying comments in the code to explain the written lines of code.
+
+During the walkthrough, TLs and the instructor will ask pertinent questions about the code.
+
+## Evaluating `garage` Content
+
+In addition to a check from the walkthrough, just like last week, the content for this week (and most every week to follow) is outfitted with a `grader` program that can be used to evaluate your work for the week. Again, in order to run the `grader` for this week's work, you will need to be in the topmost level of the `yard` folder (the same place you needed to be in order to successfully run the `git pull` command).
+
+Once there, run the command:
+
+```
+gatorgrade
+```
+
+The `grader` will take a few minutes to do its work, but once it's complete the program will populate your terminal window with a series of checks that gauge the overall "completeness" of your work. 
+
+There are 17 `grader` checks in this assignment. Participation in the walkthrough counts as an additional 18th check. All 18 checks (*all* of the `grader` checks and the walkthrough) must be completed by the due date to receive credit for this assignment!
 
 ## `term-world Server Backup Policy`
 
