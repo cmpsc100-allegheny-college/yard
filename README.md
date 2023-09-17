@@ -216,7 +216,7 @@ gatorgrade
 
 The `grader` will take a few minutes to do its work, but once it's complete the program will populate your terminal window with a series of checks that gauge the overall "completeness" of your work. 
 
-There are 17 `grader` checks in this assignment. Participation in the walkthrough counts as an additional 18th check. All 18 checks (*all* of the `grader` checks and the walkthrough) must be completed by the due date to receive credit for this assignment!
+There are 16 `grader` checks in this assignment. Participation in the walkthrough counts as an additional 18th check. All 17 checks (*all* of the `grader` checks and the walkthrough) must be completed by the due date to receive credit for this assignment!
 
 ## `term-world Server Backup Policy`
 
